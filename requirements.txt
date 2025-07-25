@@ -1,0 +1,10 @@
+# requirements.txt
+
+# For PDF and Image Processing - all we need for the heuristic approach
+pdfplumber==0.11.0
+pdf2image==1.17.0 # Used to get page dimensions and for potential future use
+Pillow==10.2.0
+
+# For Data Handling and Machine Learning (lightweight)
+numpy==1.26.4
+scikit-learn==1.4.1.post1 # For robustly clustering font sizes
