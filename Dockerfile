@@ -20,7 +20,6 @@ WORKDIR /app
 
 # Install only the necessary runtime system dependencies (for pdf2image)
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    poppler-utils \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 

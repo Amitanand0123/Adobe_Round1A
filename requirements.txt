@@ -2,7 +2,6 @@
 
 # For PDF and Image Processing - all we need for the heuristic approach
 pdfplumber==0.11.0
-pdf2image==1.17.0 # Used to get page dimensions and for potential future use
 Pillow==10.2.0
 
 # For Data Handling and Machine Learning (lightweight)

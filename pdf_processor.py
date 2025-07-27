@@ -2,7 +2,6 @@
 
 import logging
 import pdfplumber
-from pdf2image import convert_from_path
 from typing import List, Dict, Any, Tuple
 
 logger = logging.getLogger(__name__)
